@@ -20,6 +20,7 @@ Use this repository to practice accessing an external RESTful API.
     - Display a movie by IMDB ID - `OmdbMovie movie = restTemplate.getForObject("url", OmdbMovie.class)`
     - Add your own api ideas
 1. Optional: Use google to find another public rest api, and add a controller to access it.
+    - GitHub is a good one, and useful too
 1. Be sure to commit your code to your forked repository for future reference (hint, hint, hint)
 
 

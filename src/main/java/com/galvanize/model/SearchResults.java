@@ -11,6 +11,8 @@ public class SearchResults {
 
     @JsonProperty("search")
     private List<Result> search;
+    private int totalResults;
+    boolean response;
 
     public List<Result> getSearch() {
         return search;
@@ -18,6 +20,22 @@ public class SearchResults {
 
     public void setSearch(List<Result> search) {
         this.search = search;
+    }
+
+    public int getTotalResults() {
+        return totalResults;
+    }
+
+    public void setTotalResults(int totalResults) {
+        this.totalResults = totalResults;
+    }
+
+    public boolean isResponse() {
+        return response;
+    }
+
+    public void setResponse(boolean response) {
+        this.response = response;
     }
 
     @JsonInclude(JsonInclude.Include.NON_NULL)

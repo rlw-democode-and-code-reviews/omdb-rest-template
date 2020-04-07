@@ -8,7 +8,7 @@ import java.util.List;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class SearchResults {
 
-    @JsonProperty("search")
+    @JsonProperty("Search")
     private List<Result> search;
     private int totalResults;
     boolean response;

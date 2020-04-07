@@ -3,7 +3,6 @@ package com.galvanize.model;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import javax.xml.transform.Result;
 import java.util.List;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -39,7 +38,7 @@ public class SearchResults {
     }
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    class result {
+    static class Result {
         /*
        {
                "Title": "Birds of a Feather",

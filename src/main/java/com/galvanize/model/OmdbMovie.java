@@ -58,7 +58,7 @@ public class OmdbMovie {
     @JsonProperty("Response")
     private String response;
 
-    class OmdbRating {
+    static class OmdbRating {
         @JsonProperty("Source")
         private String source;
         @JsonProperty("Value")
